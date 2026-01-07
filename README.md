@@ -47,13 +47,9 @@ Following the challenge tips to "consider both textual and visual features," we 
 - **No External Data:** The model relies solely on the provided dataset; no external scraping or API lookups were used.
 - **Output Format:** Predictions are strictly positive float values formatted to 2 decimal places in a CSV file.
 
-
-## Project Structure
-- `main.py`: Contains the complete pipeline including regex extraction, preprocessing, model training, and prediction logic.
-- `dataset/`: Directory for train/test CSVs and downloaded images.
-
 ## Requirements
 - `pandas`, `numpy`, `scikit-learn`
 - `lightgbm`
 - `torch`, `torchvision` (for image features)
 - `transformers` (optional dependency imported in code)
+
